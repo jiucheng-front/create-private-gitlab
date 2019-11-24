@@ -3,13 +3,13 @@
 
 > 一、安装VMware(创建虚拟机桌面应用工具)和centos7(linux发布的版本之一)
 
-1. 下载VMware，下载后进行安装，参考：[VMware](https://www.cnblogs.com/zhangycun/p/10932326.html)，[哔哩](https://www.bilibili.com/video/av24441039?p=56)。
+1. 下载VMware(外网相对较慢)，下载后进行安装，参考：[VMware](https://www.cnblogs.com/zhangycun/p/10932326.html)，[哔哩](https://www.bilibili.com/video/av24441039?p=56)。MAC安VMware装包百度网盘下载：链接:https://pan.baidu.com/s/18WbC5kzn_v22sDx-uEOeuw  密码:nft9
 
 ```
 https://www.vmware.com/products/fusion/fusion-evaluation.html
 ```
 
-2. Liunx系统镜像下载(CentOS 7): CentOS-7-x86_64-DVD-1908.iso ，下载后待备用
+2. Liunx系统镜像下载(CentOS 7): CentOS-7-x86_64-DVD-1908.iso ，下载后待备用,4个G太大(网盘有限制不然这里也提供了)自行下载(选择国内镜像地址下载也很快)
 
 ```
 http://mirrors.aliyun.com/centos/7.7.1908/isos/x86_64/
