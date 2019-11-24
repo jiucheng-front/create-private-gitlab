@@ -1,4 +1,4 @@
-### 简单介绍MAC下如何创建私有Gitlab仓库，方面公司内部托管私有代码
+### 如何创建私有Gitlab仓库，方面公司内部托管私有代码(MAC/Windows类式)
 > 思考：如何在一台电脑上运行两个系统？买新电脑--成本大！！安装双系统--只能运行一个系统！！虚拟机：同一台电脑借助虚拟机可以运行不同的操作系统，gitlab搭建在linux上比较方面快捷
 
 > 一、安装VMware(创建虚拟机桌面应用工具)和centos7(linux发布的版本之一)
@@ -15,9 +15,17 @@ https://www.vmware.com/products/fusion/fusion-evaluation.html
 http://mirrors.aliyun.com/centos/7.7.1908/isos/x86_64/
 ```
 
-3. 安装好VMware之后并允许信任软件，将下载好的centos7---.iso拖至安装区域，进行安装
-安装过程选择中文，windows桌面UI，时间,创建root用户密码(记住)
+3. 安装好VMware之后并允许信任软件，(Mac)将下载好的centos7---.iso拖至安装区域，进行安装,(Win)下选择创建虚拟机，把下载的Centos7路径导入(国内镜像地址：https://www.centos.org/download/mirrors/)，Win下示意图
 
+![](./img/vmware1.png)
+上图创建过程需要设定虚拟机内存(建议内存4G，2个处理器)，一路下一步，然后CD/DVD(IDE)自动检测指定镜像文件(即上面下载的CentOS-7-x86_64-DVD-1908.iso路径)
+![](./img/vmware2.png)
+确定之后开启此虚拟机，如下图，选择:install centos7，耐心等待
+![](./img/centos71.png)
+安装过程选择中文，软件选择记得勾选：GNOME-XWindows,等待检测后：开始安装，安装过程可以：创建root用户密码(记住)，安装完成之后：重启，同意许可一路前进
+![](./img/centos72.png)
+安装完成如图，接下来配置IP(可以访问外网，且局域网可以访问该虚拟机)，在虚拟机桌面右键打开终端继续第4步
+![](./img/centos73.png)
 
 4. 配置Centos7的IP，参考：[哔哩](https://www.bilibili.com/video/av24441039?p=56)。
 ```
